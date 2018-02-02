@@ -1,0 +1,28 @@
+<div>
+  <h5>Create new store</h5>
+  <form #form="ngForm" class="col s12" novalidate>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="name" type="text" class="form-control validate" #name required>
+        <label for="name">Store name</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="address" active type="text" class="form-control validate" #address required>
+        <label for="address">Store address</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <button class="btn waves-effect waves-light right" type="submit" name="action" (click)="newStore(name.value ,address.value)">
+        Create Store     
+      </button>     
+    </div>
+  </form>
+</div>
+
+
+<!--This div is used to display toastr message-->
+<div id="toast-container" style="top: auto !important; left: auto !important; bottom: 10%; right:5%;"></div>

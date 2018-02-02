@@ -1,0 +1,57 @@
+<div>
+  <h5>Create new article</h5>
+  <form #form="ngForm" class="col s12" novalidate>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="name" type="text" class="form-control validate" #name required>
+        <label for="name">Article name</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="description" active type="text" class="form-control validate" #description required>
+        <label for="description">Article description</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="price" active type="text" class="form-control validate" #price required>
+        <label for="price">Article price</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="total_in_shelf" active type="text" class="form-control validate" #total_in_shelf required>
+        <label for="total_in_shelf">Article total in sheld</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="total_in_vault" active type="text" class="form-control validate" #total_in_vault required>
+        <label for="total_in_vault">Article total in vault</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <select name="storeId" id="storeId" class="form-control validate" #storeId  *ngIf="stores">
+          <option *ngFor="let option of (stores | async).list" value="{{option.id}}">{{option.name}}</option>
+        </select>      
+        <label for="storeid">Article store</label>
+      </div>
+    </div>
+    <div class="row">
+      <button class="btn waves-effect waves-light right" type="submit" name="action" (click)="newArticle(name.value ,description.value, price.value, total_in_shelf.value, total_in_vault.value, storeid.value)">
+        Create Article
+      </button>
+    </div>
+  </form>
+</div>
+
+
+<!--This div is used to display toastr message-->
+<div id="toast-container" style="top: auto !important; left: auto !important; bottom: 10%; right:5%;"></div>

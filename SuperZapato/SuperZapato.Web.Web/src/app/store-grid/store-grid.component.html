@@ -1,0 +1,42 @@
+<h1>Stores</h1>
+
+<p *ngIf="!stores"><em>Loading...</em></p>
+<app-store-new></app-store-new>
+<table class='table' *ngIf="stores">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let store of (stores | async).list">
+      <td>
+        <input *ngIf = "selected && selected.id == store.id" id="name" type="text" class="form-control validate" [(ngModel)]="selected.name">
+        <span *ngIf="!selected || (selected && selected.id != store.id)">{{ store.name }}</span>     
+      </td>
+      <td>
+        <input *ngIf="selected && selected.id == store.id" id="name" type="text" class="form-control validate"  [(ngModel)]="selected.address">
+        <span *ngIf="!selected || (selected && selected.id != store.id)">{{ store.address }}</span>  
+      </td>
+      <td>
+        <a *ngIf="!selected || (selected && selected.id != store.id)" (click)="showEdit(store); $event.stopPropagation()">
+          Edit
+        </a>
+        <a  *ngIf = "selected && selected.id == store.id" (click)="saveEdit(); $event.stopPropagation()">
+          Save
+        </a>
+      </td>
+      <td>
+        <a *ngIf="!selected || (selected && selected.id != store.id)" (click)="removeStore(store); $event.stopPropagation()">
+          Delete
+        </a>
+        <a  *ngIf = "selected && selected.id == store.id" (click)="hideEdit(); $event.stopPropagation()">
+          Cancel
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
