@@ -1,0 +1,5 @@
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Database\bin\Debug\SuperZapato.Database.dacpac
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Database\bin\Debug\SuperZapato.Database.dll
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Database\bin\Debug\SuperZapato.Database.pdb
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Database\obj\Debug\SuperZapato.Database.dll
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Database\obj\Debug\SuperZapato.Database.pdb

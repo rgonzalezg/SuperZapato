@@ -1,0 +1,11 @@
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\bin\Debug\netcoreapp2.0\SuperZapato.Web.Api.deps.json
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\bin\Debug\netcoreapp2.0\SuperZapato.Web.Api.runtimeconfig.json
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\bin\Debug\netcoreapp2.0\SuperZapato.Web.Api.runtimeconfig.dev.json
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\bin\Debug\netcoreapp2.0\SuperZapato.Web.Api.dll
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\bin\Debug\netcoreapp2.0\SuperZapato.Web.Api.pdb
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\obj\Debug\netcoreapp2.0\SuperZapato.Web.Api.csprojResolveAssemblyReference.cache
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\obj\Debug\netcoreapp2.0\SuperZapato.Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\obj\Debug\netcoreapp2.0\SuperZapato.Web.Api.AssemblyInfoInputs.cache
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\obj\Debug\netcoreapp2.0\SuperZapato.Web.Api.AssemblyInfo.cs
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\obj\Debug\netcoreapp2.0\SuperZapato.Web.Api.dll
+C:\Users\rgonz\source\repos\SuperZapato\SuperZapato.Web.Api\obj\Debug\netcoreapp2.0\SuperZapato.Web.Api.pdb
